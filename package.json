@@ -1,0 +1,56 @@
+{
+  "name": "wct-browserstack",
+  "version": "0.1.0",
+  "description": "WCT plugin that enables support for testing via Browserstack",
+  "main": "lib/plugin.js",
+  "wct-plugin": {
+    "cli-options": {
+      "browsers": {
+        "help": "Browserstack Automate (JS Testing) browsers to run tests on",
+        "full": "browserstack",
+        "metavar": "NAME",
+        "list": true
+      },
+      "defaults": {
+        "help": "Browserstack default capabilities applied to all browsers",
+        "full": "browserstack-defaults"
+      },
+      "username": {
+        "help": "Browserstack username",
+        "full": "browserstack-username"
+      },
+      "accessKey": {
+        "help": "Browserstack access key",
+        "full": "browserstack-access-key"
+      },
+      "tunnel": {
+        "help": "Browserstack tunnel config options",
+        "full": "browserstack-tunnel"
+      },
+      "client": {
+        "help": "Browserstack client API config options",
+        "full": "browserstack-client"
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wct",
+    "web-component-tester",
+    "plugin",
+    "browserstack"
+  ],
+  "author": "Andrew Mitchell <abmitchell77@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browserstacktunnel-wrapper": "^2.0.1",
+    "cleankill": "^2.0.0",
+    "node-browserstack": "^0.2.3",
+    "web-component-tester-custom-runner": "^6.1.0"
+  },
+  "peerDependencies": {
+    "web-component-tester-custom-runner": "^6.1.0"
+  }
+}

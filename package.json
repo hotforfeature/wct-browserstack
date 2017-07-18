@@ -44,6 +44,12 @@
   ],
   "author": "Andrew Mitchell <abmitchell77@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/hotforfeature/wct-browserstack",
+  "bugs": "https://github.com/hotforfeature/wct-browserstack/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hotforfeature/wct-browserstack.git"
+  },
   "dependencies": {
     "browserstacktunnel-wrapper": "^2.0.1",
     "cleankill": "^2.0.0",

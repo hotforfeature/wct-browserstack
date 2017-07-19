@@ -1,6 +1,6 @@
 {
   "name": "wct-browserstack",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "WCT plugin that enables support for testing via Browserstack",
   "main": "lib/plugin.js",
   "wct-plugin": {

@@ -11,6 +11,7 @@ Browserstack username and access key may be set in config or via environment var
 ```js
 module.exports = {
   plugins: {
+    sauce: { disabled: true },
     browserstack: {
       browsers: [{
         username: 'myusername',
@@ -23,7 +24,7 @@ module.exports = {
         }],
         defaults: {
           project: 'my-project',
-          'browserstack.video': false
+          video: false
         }
       }]
     }
